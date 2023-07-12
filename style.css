@@ -8,9 +8,10 @@ header {
     height: 185px;
     background-image: linear-gradient(to right, rgb(148, 161, 125),rgb(183, 195, 162), rgb(244, 234, 201));
 }
+
 .caixaheader{
-    margin: 0 auto;
-    padding: 0;
+    /*margin: 0 auto;
+    padding: 0;*/
     display: flex;
     flex-wrap: wrap;
     justify-content:start;
@@ -19,9 +20,10 @@ header {
     width: 1080px;
 }
 .logo{
-    margin-right: 30px;
+    margin-right: 0;
 }
 .texto-header {
+    margin-left: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-shadow: 0 0 3px rgb(2, 17, 46);
@@ -35,13 +37,13 @@ header {
     flex-direction: column;
     align-items: center;
     width: 1080px;
-    border: 1px solid violet;
+    background-color:antiquewhite;
 }
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgb(254, 244, 212);
+    background-color:rgb(255, 249, 229);
     margin: 8px;
 }
 main {
@@ -51,67 +53,123 @@ main {
     flex-direction: column;
     align-items: center;
     width: 1080px; 
-    border: 1px solid violet;
 }
 a {
     text-decoration: none;
     color:rgb(43, 96, 195)
 }
+a:hover{
+    color:orangered;
+}
+a:active {
+    color: darkolivegreen;
+}
 #inicio {
+    margin-bottom: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-shadow: 0 0 1px rgb(0, 0, 0);
     color: rgb(82, 124, 94);
 }
-h3, h2, h4, p, nav {
+h3, h2, h4, h5, p, nav {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+nav {
+    font-size: 14px;
+}
+ul {
+    margin: 0;
+}
 #subt {
     color: rgb(189, 10, 46);
-    margin: 0px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 21px;
 }
 .sec1 {
     display: flex;
-    width: 1080px;
 }
 .sec1img{
-    display: flex;
-    width: 70%;
-    border: 1px solid violet;
+    padding: 28px;
+    padding-left: 12px;
+    width: auto;
+    align-items: center;
+    background-color: antiquewhite;
 }
 .img1{
     width: 100%;
 }
 .sec1div2{
+    padding: 28px;
+    padding-right: 12px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 42%;
+    background-color: antiquewhite;
+}
+.sec2 {
+    padding: 28px;
+    background-color: rgb(254, 252, 252);
+}
+.sec3 {
+    padding: 28px;
+    background-color: antiquewhite;
+}
+.sec4 {
+    padding: 28px;
+    background-color: rgb(254, 252, 252);
+}
+.sec5 {
+    padding: 28px;
+    background-color: antiquewhite;
+}
+.sec6 {
+    display: flex;
+    padding: 28px;
+    background-color: rgb(250, 244, 244);
+}
+.sec6img {
+    width: auto;
+}
+.imgart {
+    width: 100%;
+}
+.sec6div2 {
+    display: flex;
+    padding: 28px;
+    flex-direction: column;
+    width: 25%;
+}
+.sec7 {
+    padding: 28px;
+    background-color: antiquewhite;
 }
 footer {
-    margin: 0;
-    position: relative;
+    display: flex;
     height: 185px;
-    background-image: linear-gradient(to right, rgb(221,236,232), rgb(128,128,0)) 
+    background-image: linear-gradient(to left, rgb(148, 161, 125),rgb(183, 195, 162), rgb(244, 234, 201));
 }
-
+.caixafooter {
+    display: flex;
+    justify-content:space-between;
+    height: 185px;
+    width: 1080px;
+}
+.divfoot {
+    display: flex;
+    padding: 28px;
+    flex-direction: column;
+    justify-content:space-between;
+}
 .footer-voltar {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     text-shadow: 0 0 1px rgb(11, 73, 57);
-    position: absolute;
-    margin: 0;
-    top: 30%;
-    left: 220px;
-    color: rgb(189, 52, 52);
+    color: rgb(200, 49, 49);
   }
   .footer-out {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 0 0 1px rgb(11, 73, 57);
-    position: absolute;
-    margin: 0;
-    top: 60%;
-    left: 220px;
-    color: rgb(189, 52, 52);
+    color: rgb(200, 49, 49);
   }
