@@ -20,7 +20,7 @@ header {
     width: 1080px;
 }
 .logo{
-    margin-right: 0;
+    margin: 0;
 }
 .texto-header {
     margin-left: 35px;
@@ -109,7 +109,7 @@ ul {
 }
 .sec2 {
     padding: 28px;
-    background-color: rgb(254, 252, 252);
+    background-color: rgb(250, 244, 244);
 }
 .sec3 {
     padding: 28px;
@@ -117,7 +117,7 @@ ul {
 }
 .sec4 {
     padding: 28px;
-    background-color: rgb(254, 252, 252);
+    background-color: rgb(250, 244, 244);
 }
 .sec5 {
     padding: 28px;
